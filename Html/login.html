@@ -1,0 +1,65 @@
+reduce fnss, tec sum, wrk, edu
+
+document.getElementsByTagName("table")[0].rows.item(1).cells.item(1).innerHTML
+
+document.getElementsByClassName('table table-striped')[0].rows.item(1).cells.item(1).value 
+
+document.getElementsByName('fieldvalue[step1][]').value = 3
+-----------------------
+jvm, jre, jdk
+threads
+
+
+
+----
+inheritance -  is-a
+aggregation - has-a
+compostion - has-a (Person has a address) 
+
+composition = Strong relatioship, aggregation= weak relationship
+-------------------
+<!DOCTYPE html>
+ 
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration</title>
+ 
+<link rel="stylesheet" type="text/css" href="login.css">
+ 
+</head>
+ 
+<body bgcolor="#E6E6FA">
+ 
+    <div id="container">
+        <form action="http://localhost:3000/user/login" method="POST" id="myForm" name="Form">
+    
+            <h2>Login Form</h2>
+            
+            <label for="email">email:</label>
+            <input type="text" name="email" placeholder="Enter email" id="email"/><br/><br/>
+            
+            <label for="pass">Password:</label>
+            <input type="password" name="password" placeholder="Enter Password" id="pass"/><br/><br/>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Login" id="submit"/>
+        
+            <a href="signup.html">New Member</a>
+    
+        </form>
+    </div>
+    <script>
+        // document.getElementById("submit").addEventListener("click", function(e){
+        // // Prevent the form from submitting
+        // e.preventDefault();
+        // let email = document.getElementById("email").value,
+        //     pass = document.getElementById("pass").value;
+
+        //     console.log(email, pass);
+            
+// });
+    </script>
+    
+</body>
+</html> 
